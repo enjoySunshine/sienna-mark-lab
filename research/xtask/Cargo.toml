@@ -1,0 +1,16 @@
+[package]
+name = "xtask"
+publish = false
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Dev tooling for Vello"
+keywords = ["testing"]
+categories = ["testing", "graphics"]
+
+
+[dependencies]
+clap = { workspace = true, features = ["derive"] }
+
+[lints]
+workspace = true
